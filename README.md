@@ -17,14 +17,14 @@ This the implementation code of my master project at University of California, R
 
 Module Name | Description | My Contribution
 ----------- | ----------- | ---------------
-main | Matrix Profile Shapelet Algorithm (MPSA) | Fixed the instability issue of occurring NaNs and Infs occasionally in the original code
-main2 | Iterative Matrix Profile Shapelet Algorithm (IMPSA) | Plugged in MPSA into loops, looping thru all shapelet candidates of all possible lengths, with early abandon strategy added
+main | Matrix Profile Shapelet Algorithm (MPSA) | Fixed the instability issue of occurring NaNs and Infs occasionally in the original code; Fixed small bugs in plotting shapelet.
+main2 | Iterative Matrix Profile Shapelet Algorithm (IMPSA) | Plugged MPSA into loops, looping thru all shapelet candidates of all possible lengths, with early abandon strategy added
 main3 | IMPSA with output of both train and test accuracy, early abandon strategy emitted to search for candidates of all possible lengths | Changed a few lines to plot train and test accuracy for all shapelet of searched lengths
 PreSCRIMP | An existing version of PreSCRIMP on Matrix Profile self-join P<sub>AA</sub> | Added handlers for NaNs and Infs in Matrix Profile for MPSA
 PreSCRIMP_joinAB | PreSCRIMP on Matrix Profile join P<sub>AB</sub> | Implemented this version based on the self-join version
 prepare_data_tsv | Prepare input time series data in tsv format | Self-developed
 MASS_V2 | The MASS method | Fully reference to Mueen's Similarity Search
-generate_sin_ts | Generate FuzzySine dataset
+generate_sin_ts | Generate FuzzySine dataset | Self-developed
 
 
 
