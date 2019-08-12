@@ -1,4 +1,4 @@
-IMPSA: Iterative Matrix Profile Shaplet Algorithm
+IMPSA: Iterative Matrix Profile Shapelet Algorithm
 
 This the implementation code of my master project at University of California, Riverside under advisor Dr. Eamonn Keogh:  *Implementation and Optimizations of the Matrix Profile Shapelet Algorithm on Time Series Classification*, which is based on lots of previous works which I have commented in the code. A more general introduction of works on Matrix Profile is here: *https://www.cs.ucr.edu/~eamonn/MatrixProfile.html* .
 
